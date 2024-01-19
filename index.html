@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Retirada da Laguna</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/itinerario.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -16,6 +17,8 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.nundle.min.css" defer></script>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/specs.css" rel="stylesheet" />
 </head>
@@ -35,7 +38,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#guerra_paraguai">Guerra do Paraguai</a></li>
                     <li class="nav-item"><a class="nav-link" href="#retirada_laguna">Retirada da Laguna</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#mapa_retirada">Mapa da Retirada</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mapa_retirada">Trajetória</a></li>
                     <li class="nav-item"><a class="nav-link" href="#locais_historicos">Monumentos Históricos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#figuras_importantes">Figuras Importantes</a></li>
                 </ul>
@@ -131,11 +134,14 @@
     </section>
 
     <section class="projects-section bg-light" id="mapa_retirada" id="mapa_retirada_google_maps">
-        <div class=" container px-4 px-lg-5">
+        <h2 class="text-black text-center">Trajetória da Retirada da Laguna</h2>
+        <div id="linha"></div>
+        <div class="container2 px-4 px-lg-5">
             <!-- Featured Project Row-->
-            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-12">
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center align-items-center">
+                <div class="col-sm">
                     <iframe
+                        class="responsive-iframe"
                         src="https://www.google.com/maps/d/embed?mid=1wn_LCcRkuiSqVgvq91gouOhwt2nZOjc&ehbc=2E312F&z=7"
                         width="1000" height="500"></iframe>
                 </div>
@@ -149,7 +155,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/nhandipa3.png" alt="..." />
                 </div>
                 <div class="col-lg-6">
@@ -165,11 +171,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="linha2"></div>
+                </div>            
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/cemiteriohistorico.png" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -185,15 +191,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="linha2"></div>
+                </div>              
             </div>
-            
+            <div id="linha2"></div>
         </div>
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/MorrodaMargarida.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -211,10 +216,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/cambarace3.jpg" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -233,7 +238,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/cemiterio.png" alt="..." />
                 </div>
                 <div class="col-lg-6">
@@ -251,10 +256,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/monumentoguialopes.png" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -276,7 +281,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/monumentoaretiradadalaguna.jpg"  alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -292,10 +297,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/PortodoCanutoAnastacio.jpg" alt="..." />
                 </div>
                 <div class="col-lg-6 order-lg-first">
