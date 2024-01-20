@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Retirada da Laguna</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/itinerario.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -16,15 +17,18 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet"/>
-    <link href="css/specs.css" rel="stylesheet"/>
+
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.nundle.min.css" defer></script>
+    <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand " href="#page-top">Início</a>
+            <a class="nav-link" href="#page-top">Início</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,7 +38,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#guerra_paraguai">Guerra do Paraguai</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#mapa_retirada">Mapa da Retirada da Laguna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#retirada_laguna">Retirada da Laguna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mapa_retirada">Trajetória</a></li>
+
                     <li class="nav-item"><a class="nav-link" href="#locais_historicos">Monumentos Históricos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#figuras_importantes">Figuras Importantes</a></li>
                 </ul>
@@ -62,7 +68,7 @@
                     <h2 class="text-black text-center mb-4">Guerra do Paraguai</h2>
                     <div id="linha"></div>
                     <img class="rounded img-fluid my-5" src="assets/img/guerraparaguai.png" alt="...">
-                    <p class="text-black-50 mt-3 text-justify" id="pfiguras">
+                    <p class="text-black-50 mt-3 text-justify text-just">
                         A Guerra do Paraguai, que ocorreu de 1864 a 1870, foi um conflito armado envolvendo o Paraguai e
                         uma aliança formada por Brasil, Argentina e Uruguai.
                         A guerra teve suas raízes em disputas territoriais, questões econômicas e políticas na região do
@@ -70,7 +76,7 @@
                         As causas imediatas incluíram a rivalidade entre as nações envolvidas, especialmente as tensões
                         entre o presidente paraguaio Francisco Solano López e os líderes do Brasil, Argentina e Uruguai.
                     </p>
-                    <p class="text-black-50 mt-3 text-justify" id="pfiguras">
+                    <p class="text-black-50 mt-3 text-justify text-just">
                         A Guerra começou oficialmente em 1864, quando o Paraguai invadiu o território do Mato Grosso, no
                         Brasil.
                         Ao longo do conflito, o Paraguai enfrentou desvantagens significativas em termos de recursos e
@@ -78,7 +84,7 @@
                         uma guerra prolongada e devastadora. As batalhas foram marcadas por intensos combates e alta
                         mortalidade, incluindo a participação de civis nas hostilidades.
                     </p>
-                    <p class="text-black-50 mt-3 text-justify" id="pfiguras">
+                    <p class="text-black-50 mt-3 text-justify text-just">
                         O conflito teve um impacto profundo nas nações envolvidas. O Paraguai sofreu enormes perdas
                         humanas e territoriais, e a guerra teve um impacto duradouro na sua economia e sociedade. O
                         Brasil emergiu como uma potência regional, mas também enfrentou desafios econômicos e políticos
@@ -92,74 +98,56 @@
         </div>
     </section>
     <!-- Retirada da laguna -->
-    <section class="about-section text-center projects-section bg-light" id="retirada_laguna">
+    <section class="about-section projects-section bg-light" id="retirada_laguna">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Retirada da laguna</h2>
-                    <div class="linha3"></div>
-                    <iframe class="rounded  img-fluid my-5 video" width="560" height="315"
+                    <h2 class="text-white text-center  mb-4">Retirada da laguna</h2>
+                    <div class="linha"></div>
+                    <iframe class="rounded  img-fluid my-5 video" width="1000" height="500"
                         src="https://www.youtube.com/embed/h55L344hCuc?si=uJzuza8WyoeM9YUV" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
-                    <p class="text-white-50  mt-3 text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias fuga corrupti est blanditiis
-                        neque, iure incidunt facilis provident repudiandae nesciunt eveniet dicta quidem reprehenderit?
-                        Quae animi neque cum illo!
-                        Autem, natus. Quidem animi nesciunt error dignissimos velit esse magni quasi maxime debitis
-                        nulla molestiae totam ut numquam quam nostrum, consectetur ab nam. Minus voluptas quos,
-                        reiciendis rem ullam porro?
-                        Accusantium dolorem dolorum beatae ut dolore saepe, ipsa pariatur necessitatibus velit,
-                        veritatis ipsam. Reiciendis, soluta quaerat dicta beatae totam maiores cumque repudiandae
-                        repellat dolorem asperiores non recusandae odit, consequuntur assumenda?
-                        Rem ducimus tempora laboriosam cupiditate aut! Magnam itaque voluptatum asperiores neque quaerat
-                        aliquid ipsam obcaecati dolorem voluptatibus. Veritatis fugiat repudiandae repellendus, soluta
-                        eum expedita, natus dolor iste debitis necessitatibus illo.
-                        Et omnis quisquam vel fugiat asperiores. Culpa voluptatibus et distinctio nemo, sapiente ad
-                        provident eos corporis ipsam nam corrupti odit accusamus officia tempore quisquam sequi iste
-                        dolorum id dolorem autem.
+                    <p class="text-white-50 mt-3 text-justify text-just">
+                        A Retirada da Laguna foi um importante episódio que ocorreu durante a Guerra do Paraguai(1864-1870), marcada pela operação militar que teve seu início em 1867, quando a Força Expedicionária brasileira adentrou o território dominado pelo inimigo. Após uma série de conflitos e falta de suprimentos, o Tenente Coronel Camisão dá a ordem de retirada com o objetivo de assegurar a vida de seus homens que restavam.
                     </p>
-
+                    <p class="text-white-50 mt-3 text-justify text-just">
+                        As batalhas em torno da Retirada da Laguna foram significativas no contexto da guerra, pois representaram uma virada importante a favor das forças aliadas (Brasil, Argentina e Uruguai) e contribuíram para o desfecho do conflito, enfraquecendo as forças do exército paraguaio e a posição de Solano López. Esse episódio é relembrado pelo exército brasileiro em cerimônias de homenagem aos honrados homens que morreram em serviço à pátria e deixaram seu legado na região, que refletem na formação sociocultural-espaço territorial nos dias de hoje.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects-->
-</section>
-<!-- Projects-->
-<section class="projects-section bg-light" id="mapa_retirada">
-    <div class="container px-4 px-lg-5">
-        <!-- Featured Project Row-->
-        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" src="assets/img/mapa3.jpg" usemap="#meumapa" alt="..." />
-                <map name="meumapa">
-                    <area shape="circle" coords="378,171,19" href="" />
-                </map>
-            </div>
-            <div class="col-xl-4 col-lg-5">
-                <div class="featured-text text-center text-lg-left">
-                    <article id="inicio">
-                        <header>
-                            <h1>1 texto da batalha do nhandipá
-                            </h1>
-                        </header>
-                    </article>
+
+    </section>
+
+    <section class="projects-section bg-light" id="mapa_retirada" id="mapa_retirada_google_maps">
+        <h2 class="text-black text-center">Trajetória da Retirada da Laguna</h2>
+        <div id="linha"></div>
+        <div class="container2 px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row">
+                <div class="col-12">
+                    <iframe
+                        class="responsive-iframe"
+                        src="https://www.google.com/maps/d/embed?mid=1wn_LCcRkuiSqVgvq91gouOhwt2nZOjc&ehbc=2E312F&z=7"></iframe>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <section class="projects-section bg-light" id="locais_historicos">
         <h2 class="text-black text-center">Monumentos Históricos</h2>
         <div id="linha"></div>
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/nhandipa3.png" alt="..." /></div>
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/nhandipa3.png" alt="..." />
+                </div>
+
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -171,11 +159,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="linha2"></div>
+                </div>            
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/cemiteriohistorico.png" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -190,14 +178,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>              
             </div>
             <div id="linha2"></div>
         </div>
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/MorrodaMargarida.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -214,11 +202,11 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cambarace3.jpg" alt="..." /></div>
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cambarace.jpg" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -236,8 +224,11 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cemiterio.png" alt="..." /></div>
+
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cemiterio.png" alt="..." />
+                </div>
+
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -252,10 +243,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/monumentoguialopes.png" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -275,8 +266,10 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/monumentoaretiradadalaguna.jpg" alt="..." /></div>
+
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/monumentoaretiradadalaguna.jpg"  alt="..." /></div>
+
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -289,11 +282,14 @@
                         </div>
                     </div>
                 </div>
-                <div id="linha2"></div>
             </div>
+            <div id="linha2"></div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/PortodoCanutoAnastacio.jpg" alt="..." /></div>
+
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/PortodoCanutoAnastacio.jpg" alt="..." />
+                </div>
+
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -319,16 +315,34 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center align-items-center bg-black">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/viscondedetaunay.png" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Segundo-Tenente Visconde de Taunay</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Visconde de Taunay (Alfredo Maria Adriano d’Escragnolle Taunay) nasceu em 22 de fevereiro de 1843, no Rio de Janeiro. Filho do barão Félix Émile Taunay (1795-1881) e neto do pintor Nicolas-Antoine Taunay (1755-1830), teve uma educação familiar refinada.
-                                    Estudou no Colégio Pedro II, no Rio de Janeiro, e recebeu o título de bacharel em Letras, em 1858. Já em 1859, passou a estudar na Escola Militar, no curso de Ciências Físicas e Matemáticas, e adquiriu o grau de bacharel em Matemáticas no ano de 1863. Dois anos depois, quando cursava Engenharia Militar, na época exercendo o cargo de segundo-tenente, Taunay foi convocado para a Guerra do Paraguai. Já em 1867, participou da Retirada da Laguna, onde escreveu suas anotações e memórias daquele episódio militar, que posteriormente foi lançado como um livro.
-                                    Com o fim da guerra, em 1870, agora capitão, o romancista finalizou o curso de Engenharia e trabalhou como professor de Geologia e Mineralogia da Escola Militar. Posteriormente, seguiu com sua carreira política até a época da proclamação da república em 1889, falecendo 10 anos depois em 1899 no Rio de Janeiro.                                    
+
+                                <p class="mb-0 text-white-50 text-justify">Visconde de Taunay (Alfredo
+                                    Maria Adriano d’Escragnolle Taunay) nasceu em 22 de fevereiro de
+                                    1843, no Rio de Janeiro. Filho do barão Félix Émile Taunay
+                                    (1795-1881) e neto do pintor Nicolas-Antoine Taunay (1755-1830),
+                                    teve uma educação familiar refinada.
+                                    Estudou no Colégio Pedro II, no Rio de Janeiro, e recebeu o título
+                                    de bacharel em Letras, em 1858. Já em 1859, passou a estudar na
+                                    Escola Militar, no curso de Ciências Físicas e Matemáticas, e
+                                    adquiriu o grau de bacharel em Matemáticas no ano de 1863. Dois anos
+                                    depois, quando cursava Engenharia Militar, na época exercendo o
+                                    cargo de segundo-tenente, Taunay foi convocado para a Guerra do
+                                    Paraguai. Já em 1867, participou da Retirada da Laguna, onde
+                                    escreveu suas anotações e memórias daquele episódio militar, que
+                                    posteriormente foi lançado como um livro.
+                                    Com o fim da guerra, em 1870, agora capitão, o romancista finalizou
+                                    o curso de Engenharia e trabalhou como professor de Geologia e
+                                    Mineralogia da Escola Militar. Posteriormente, seguiu com sua
+                                    carreira política até a época da proclamação da república em 1889,
+                                    falecendo 10 anos depois em 1899 no Rio de Janeiro.
+
                                 </p>
                             </div>
                         </div>
@@ -337,15 +351,39 @@
                 <div id="linha3"></div>
             </div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/guialopes.jpg" alt="..." /></div>
+
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/guialopes.jpg" alt="..." />
+                </div>
+
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">José Francisco Lopes</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">José Francisco Lopes nasceu em 26 de fevereiro de 1811, na Vila de Piumhi, Província de Minas Gerais. Desde jovem, desenvolveu uma inclinação para explorar os sertões do Brasil, atravessando vastas áreas que iam do oeste de Minas Gerais ao sul de Mato Grosso. Tornou-se um habilidoso sertanista, conhecendo extensas serras até os limites meridionais da província de Mato Grosso. Em 1864, José Francisco Lopes e sua esposa, Senhorinha Barbosa, viviam na fazenda Jardim com os filhos. Durante o ataque paraguaio, Senhorinha e seus filhos foram capturados e levados como prisioneiros para a vila de Horqueta, em território inimigo. Lopes, que estava fora de sua propriedade no momento do ataque, conseguiu escapar ileso. Algumas semanas depois, arriscando-se em território já ocupado pelos paraguaios, encontrou sua fazenda destruída e recebeu a notícia de que sua família havia sido sequestrada.
-                                    Lopes decide então se voluntariar como guia da tropa, se reencontra com um de seus filhos que conseguiu fugir dos inimigos e juntos partem com a Força Expedicionária comandada por Camisão. Ele exerceu papel fundamental na Retirada da Laguna, usando de seu conhecimento da região, gado e suprimentos de sua fazenda para garantir a sobrevivência de muitos soldados até chegarem às margens do Rio Miranda. E poucas horas depois de seu filho, perto da sede de sua fazenda Jardim, Lopes faleceu devido à cólera em 27 de maio de 1867.
+
+                                <p class="mb-0 text-white-50 text-justify">José Francisco Lopes nasceu
+                                    em 26 de fevereiro de 1811, na Vila de Piumhi, Província de Minas
+                                    Gerais. Desde jovem, desenvolveu uma inclinação para explorar os
+                                    sertões do Brasil, atravessando vastas áreas que iam do oeste de
+                                    Minas Gerais ao sul de Mato Grosso. Em 1864, José Francisco Lopes e sua
+                                    esposa, Senhorinha Barbosa, viviam na fazenda Jardim com os filhos.
+                                    Durante o ataque paraguaio, Senhorinha e seus filhos foram
+                                    capturados e levados como prisioneiros para a vila de Horqueta, em
+                                    território inimigo. Lopes, que estava fora de sua propriedade no
+                                    momento do ataque, conseguiu escapar ileso. Algumas semanas depois,
+                                    arriscando-se em território já ocupado pelos paraguaios, encontrou
+                                    sua fazenda destruída e recebeu a notícia de que sua família havia
+                                    sido sequestrada.
+                                    Lopes decide então se voluntariar como guia da tropa, se reencontra
+                                    com um de seus filhos que conseguiu fugir dos inimigos e juntos
+                                    partem com a Força Expedicionária comandada por Camisão. Ele exerceu
+                                    papel fundamental na Retirada da Laguna, usando de seu conhecimento
+                                    da região, gado e suprimentos de sua fazenda para garantir a
+                                    sobrevivência de muitos soldados até chegarem às margens do Rio
+                                    Miranda. E poucas horas depois de seu filho, perto da sede de sua
+                                    fazenda Jardim, Lopes faleceu devido à cólera em 27 de maio de 1867.
+
                                 </p>
                             </div>
                         </div>
@@ -357,15 +395,31 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/senhorinha.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Senhorinha Barbosa Lopes</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Senhorinha Maria da Conceição Barbosa Lopes, nascida em 26 de fevereiro de 1811, era filha de Antônio Gonçalves Barbosa e Maria Vitória de Jesus. Ela se casou inicialmente com Gabriel Francisco Lopes, irmão mais velho de José Francisco Lopes, e juntos residiram na Estância Monjolinho, no município de Bela Vista, MS. Gabriel prometeu propriedades e gado em troca de serviços, mas foi assassinado pelos escravos.
-                                    Após a morte de Gabriel, Senhorinha se casou com José Francisco Lopes, conhecido como Guia Lopes. Ela viveu na fazenda com Lopes até a Guerra do Paraguai, durante a qual foi capturada pelos soldados inimigos. Ela foi levada ao Paraguai como prisioneira com seus filhos e escravos, enfrentando dificuldades e cobranças de indenização pela ocupação da propriedade. Com o fim da guerra, Senhorinha e seus filhos foram libertados, retornando para a fazenda Jardim. Ela passou seus últimos dias em Bela Vista, falecendo no dia 26 de fevereiro de 1913.                                    
+
+                                <p class="mb-0 text-white-50 text-justify">Senhorinha Maria da
+                                    Conceição Barbosa Lopes, nascida em 26 de fevereiro de 1811, era
+                                    filha de Antônio Gonçalves Barbosa e Maria Vitória de Jesus. Ela se
+                                    casou inicialmente com Gabriel Francisco Lopes, irmão mais velho de
+                                    José Francisco Lopes, e juntos residiram na Estância Monjolinho, no
+                                    município de Bela Vista, MS. Gabriel prometeu propriedades e gado em
+                                    troca de serviços, mas foi assassinado pelos escravos.
+                                    Após a morte de Gabriel, Senhorinha se casou com José Francisco
+                                    Lopes, conhecido como Guia Lopes. Ela viveu na fazenda com Lopes até
+                                    a Guerra do Paraguai, durante a qual foi capturada pelos soldados
+                                    inimigos. Ela foi levada ao Paraguai como prisioneira com seus
+                                    filhos e escravos, enfrentando dificuldades e cobranças de
+                                    indenização pela ocupação da propriedade. Com o fim da guerra,
+                                    Senhorinha e seus filhos foram libertados, retornando para a fazenda
+                                    Jardim. Ela passou seus últimos dias em Bela Vista, falecendo no dia
+                                    26 de fevereiro de 1913.
+
                                 </p>
                             </div>
                         </div>
@@ -374,15 +428,33 @@
                 <div id="linha3"></div>
             </div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/solanolopes.jpg" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Marechal Francisco Solano López</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Francisco Solano López Carrillo (24 de julho de 1827 - 1 de março de 1870) foi um militar e político paraguaio que serviu como presidente de 1862 até sua morte em 1870. Filho mais velho de Juana Pabla Carrillo e do presidente Carlos Antonio López, ele começou sua carreira militar jovem, lutando contra Juan Manuel de Rosas nas Guerras Platinas. Após a queda de Rosas, atuou como embaixador paraguaio em diversos países europeus. Ao retornar a Assunção, assumiu a presidência após a morte de seu pai.
-                                    Solano López é uma figura controversa na história sul-americana, especialmente devido à Guerra do Paraguai, também conhecida como Guerra da Tríplice Aliança. Suas ambições são consideradas por alguns como a principal causa do conflito, enquanto outros argumentam que ele era um defensor feroz da independência sul-americana contra influências estrangeiras. Ele resistiu até o final da guerra, sendo morto em ação durante a Batalha de Cerro Corá por um militar do exército imperial brasileiro, marcando o fim do conflito e a rendição do Paraguai ao Brasil.                                    
+
+                                <p class="mb-0 text-white-50 text-justify">Francisco Solano López
+                                    Carrillo (24 de julho de 1827 - 1 de março de 1870) foi um militar e
+                                    político paraguaio que serviu como presidente de 1862 até sua morte
+                                    em 1870. Filho mais velho de Juana Pabla Carrillo e do presidente
+                                    Carlos Antonio López, ele começou sua carreira militar jovem,
+                                    lutando contra Juan Manuel de Rosas nas Guerras Platinas. Após a
+                                    queda de Rosas, atuou como embaixador paraguaio em diversos países
+                                    europeus. Ao retornar a Assunção, assumiu a presidência após a morte
+                                    de seu pai.
+                                    Solano López é uma figura controversa na história sul-americana,
+                                    especialmente devido à Guerra do Paraguai, também conhecida como
+                                    Guerra da Tríplice Aliança. Suas ambições são consideradas por
+                                    alguns como a principal causa do conflito, enquanto outros
+                                    argumentam que ele era um defensor feroz da independência
+                                    sul-americana contra influências estrangeiras. Ele resistiu até o
+                                    final da guerra, sendo morto em ação durante a Batalha de Cerro Corá
+                                    por um militar do exército imperial brasileiro, marcando o fim do
+                                    conflito e a rendição do Paraguai ao Brasil.
+
                                 </p>
                             </div>
                         </div>
@@ -394,15 +466,30 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/rufino.jpg" alt="..." /></div>
+
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/rufino.jpg" alt="..." />
+                </div>
+
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Tenente Coronel Pedro José Rufino</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Pedro José Rufino nasceu em 26 de abril de 1816, na Freguesia do Monte, Bahia. Em 1850, como alferes, se apresentou em Cáceres, Mato Grosso. Mudou-se para o baixo Paraguai ainda no mesmo ano. Em 1852, casou-se com Ana Joaquina do Rosário e comandou em Miranda. Em Cuiabá, organizou o 1° Corpo de Caçadores a Cavalo em 1866. No final do ano seguinte, juntou-se à Força Expedicionária em Miranda.
-                                    Destacou-se na retirada da Laguna, sendo elogiado por sua bravura e atividade em reconhecimento de campo. Foi condecorado pelo governo imperial e alcançou o posto de Tenente Coronel em 1888. Sua história está intimamente ligada a Nioaque, onde deixou uma numerosa descendência. Pedro José Rufino faleceu por volta de 1905.                                    
+
+                                <p class="mb-0 text-white-50 text-justify">Pedro José Rufino nasceu em
+                                    26 de abril de 1816, na Freguesia do Monte, Bahia. Em 1850, como
+                                    alferes, se apresentou em Cáceres, Mato Grosso. Mudou-se para o
+                                    baixo Paraguai ainda no mesmo ano. Em 1852, casou-se com Ana
+                                    Joaquina do Rosário e comandou em Miranda. Em Cuiabá, organizou o 1°
+                                    Corpo de Caçadores a Cavalo em 1866. No final do ano seguinte,
+                                    juntou-se à Força Expedicionária em Miranda.
+                                    Destacou-se na retirada da Laguna, sendo elogiado por sua bravura e
+                                    atividade em reconhecimento de campo. Foi condecorado pelo governo
+                                    imperial e alcançou o posto de Tenente Coronel em 1888. Sua história
+                                    está intimamente ligada a Nioaque, onde deixou uma numerosa
+                                    descendência. Pedro José Rufino faleceu por volta de 1905.
+
                             </div>
                         </div>
                     </div>
@@ -410,16 +497,35 @@
                 <div id="linha3"></div>
             </div>
             <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/celcamisao.JPG" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white"><a href="https://www.youtube.com/watch?v=WpNr8lQGGfk">Tenente Coronel Camisão</a></h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Carlos de Morais Camisão nasceu em 8 de maio de 1821, no Rio de Janeiro. Começou cedo na carreira militar, recebendo o cargo de Segundo Tenente já em 1839 e Coronel em 1861. Na Guerra da Tríplice Aliança (1864-1870) Camisão comandou o 2º Batalhão de Artilharia na Campanha do Paraguai e posteriormente as Forças Expedicionária ao Sul da Província do Mato Grosso, onde marcharam rumo ao território inimigo para libertar a região das forças paraguaias.
-                                    Após uma emboscada do exército inimigo, Camisão sanciona a ordem de retirada por falta de munição e suprimentos para seguir em frente. Com a ajuda de guia Lopes, chegam às margens do Rio Miranda, onde ele já apresentava fortes sintomas da cólera. No dia 29 de maio de 1867, Camisão morreu dizendo que havia salvado a vida de seus homens e finalmente iria descansar, sendo sepultado no mesmo dia no local que hoje é o Cemitério dos Heróis.                                    
+
+                                <h4 class="text-white">Tenente Coronel Camisão</h4>
+                                <p class="mb-0 text-white-50 text-justify">Carlos de Morais Camisão
+                                    nasceu em 8 de maio de 1821, no Rio de Janeiro. Começou cedo na
+                                    carreira militar, recebendo o cargo de Segundo Tenente já em 1839 e
+                                    Coronel em 1861. Na Guerra da Tríplice Aliança (1864-1870) Camisão
+                                    comandou o 2º Batalhão de Artilharia na Campanha do Paraguai e
+                                    posteriormente as Forças Expedicionária ao Sul da Província do Mato
+                                    Grosso, onde marcharam rumo ao território inimigo para libertar a
+                                    região das forças paraguaias.
+                                    Após uma emboscada do exército inimigo, Camisão sanciona a ordem de
+                                    retirada por falta de munição e suprimentos para seguir em frente.
+                                    Com a ajuda de guia Lopes, chegam às margens do Rio Miranda, onde
+                                    ele já apresentava fortes sintomas da cólera. No dia 29 de maio de
+                                    1867, Camisão morreu dizendo que havia salvado a vida de seus homens
+                                    e finalmente iria descansar, sendo sepultado no mesmo dia no local
+                                    que hoje é o Cemitério dos Heróis.
+                                    
+
                                 </p>
+                                <a href="https://www.youtube.com/watch?v=WpNr8lQGGfk" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/youtube.png" height="10%" width="10%"
+                                        style="margin-top: 10px;"></a>
                             </div>
                         </div>
                     </div>
@@ -430,7 +536,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <!-- Project One Row-->
-            <div class="bg-black row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="bg-black row gx-0 justify-content-center align-items-center bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/JUV.jpg" width="500px" height="633px"
                         alt="..." /></div>
                 <div class="col-lg-6">
@@ -438,8 +544,22 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Tenente Coronel Juvêncio</h4>
-                                <p class="mb-0 text-white-50" id="pfiguras">Juvêncio Manoel Cabral de Menezes nasceu em 12 de setembro de 1821 no Rio de Janeiro, e foi casado com Maria Da Glória Cabral de Menezes, com quem teve dois filhos. Ingressou na Academia Real Militar aos 16 anos em março de 1837 e cursou a Escola Militar em 1841 e 1842. Durante sua carreira, destacou-se em diversos cargos, sendo promovido a Tenente-Coronel em 19 de março de 1864. Se juntou à Força Expedicionária nesse mesmo ano, chefiando a comissão de engenheiros do grupo, responsáveis pela construção de pontes e balsas provisórias para travessias.
-                                    Acometido pela cólera, faleceu em 29 de maio de 1867 e foi sepultado ao lado do Tenente Coronel Camisão à margem esquerda do Rio Miranda. Nos dias atuais, seus restos mortais e de outras figuras históricas residem no Monumento aos Heróis de Laguna e Dourados, situado no Rio de Janeiro.                                    
+
+                                <p class="mb-0 text-white-50 text-justify">Juvêncio Manoel Cabral de
+                                    Menezes nasceu em 12 de setembro de 1821 no Rio de Janeiro, e foi
+                                    casado com Maria Da Glória Cabral de Menezes, com quem teve dois
+                                    filhos. Ingressou na Academia Real Militar aos 16 anos em março de
+                                    1837 e cursou a Escola Militar em 1841 e 1842. Durante sua carreira,
+                                    destacou-se em diversos cargos, sendo promovido a Tenente-Coronel em
+                                    19 de março de 1864. Se juntou à Força Expedicionária nesse mesmo
+                                    ano, chefiando a comissão de engenheiros do grupo, responsáveis pela
+                                    construção de pontes e balsas provisórias para travessias.
+                                    Acometido pela cólera, faleceu em 29 de maio de 1867 e foi sepultado
+                                    ao lado do Tenente Coronel Camisão à margem esquerda do Rio Miranda.
+                                    Nos dias atuais, seus restos mortais e de outras figuras históricas
+                                    residem no Monumento aos Heróis de Laguna e Dourados, situado no Rio
+                                    de Janeiro.
+
                             </div>
                         </div>
                     </div>
